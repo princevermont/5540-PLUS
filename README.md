@@ -189,7 +189,9 @@ This circuit was tested on a T-80 tuner with an F-3000 display board. I also hav
 Does it work? Yes, at least on an F-3000 board it seems to work comparable to the original IC. I am looking for more options to test this in other models. I suspect it will be fine in F-3220 and F-3088 since its hooked up the same way per schematics. The TU-919 uses the IC to drive individual LEDs and that is very different.
 
 ### Video
-<video src="./Resources/testing-example.mp4" controls="controls" style="max-width: 100%;"></video>
+<video src="https://github.com/princevermont/5540-PLUS/blob/main/Resources/testing-example.mp4" controls="controls" style="max-width: 100%;"></video>
+https://github.com/princevermont/5540-PLUS/blob/main/Resources/testing-example.mp4
+
 
 Do the waveforms for locking and the analog DA_OUT look exactly the same as the original IC? No. Are they close? Yes.
 
