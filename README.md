@@ -189,13 +189,7 @@ This circuit was tested on a T-80 tuner with an F-3000 display board. I also hav
 Does it work? Yes, at least on an F-3000 board it seems to work comparable to the original IC. I am looking for more options to test this in other models. I suspect it will be fine in F-3220 and F-3088 since its hooked up the same way per schematics. The TU-919 uses the IC to drive individual LEDs and that is very different.
 
 ### Video
-.. raw:: html
-<video src="https://github.com/princevermont/5540-PLUS/blob/main/Resources/testing-example.mp4"></video>
-https://github.com/princevermont/5540-PLUS/blob/main/Resources/testing-example.mp4
-
-
-Do the waveforms for locking and the analog DA_OUT look exactly the same as the original IC? No. Are they close? Yes.
-
+<video controls src="https://github.com/princevermont/5540-PLUS/blob/54bc976218ef636eff8bf1c3531cc9d9b65a5a18/Resources/testing-example.mp4" title="Video Demo"></video>
 
 ## Lessons Learned
 - The condition of the tuner is critical to the operation of this circuit, whether it uses an original MSM5540 IC or this circuit. Mine had a ton of noise on the -12V supply to the F-3000 due to a failed (open) capacitor in the power section. The D11 diode was creating weird pulses on the VREF_CTL line and interrupting the LOCK operation. It also had cracked/cold solder joints on the main tuner board
