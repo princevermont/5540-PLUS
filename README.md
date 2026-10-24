@@ -125,7 +125,7 @@ This block diagram does provide plenty of information, including the values of t
 
 There are 2 LOCKOUT lines, which are high signal when the receiving frequency is within the lock range of the receiving frequency.
 - The LOCKOUT 1 seems to follow the indicated 40kHz (+/-20kHZ) range specified in the diagrams.
-- The LOCKOUT 2 is not used on Sansui receivers and seems to be an Inverse of the LOCKOUT1 line with some additiona logic. This is currently not implemented on the 5540-PLUS but the line is hooked up to the microcontroller so it could be added in the future if some receiver is found that uses it.
+- The LOCKOUT 2 is not used on Sansui receivers and seems to be a shifted range of about +40Khz from the LOCKOUT 1 value. This pin is NC on all the Sansui Schematics I have been able to obtain. Nevertheless, it is implemented in this board to stay accurate with the function of the original IC.
 
 This chart shows the intended behavior: (Chart assumes 10.72MHz IF)
 <img src="./Resources/lock and DA OUT.png">
