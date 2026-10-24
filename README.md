@@ -159,7 +159,7 @@ The prototypes are assembled by hand but the intention is it could be sent off t
 ### Arduino Compatible
 I am not a programmer and I certainly have no intention of writing assembly code for this. I chose to program using the Arduino environment due to easy C programming and easy code changes with the appropriate bootloader.
 
-The MajorCore project includes compatible libraries and a bootloader for interacting with an ATMega162. 
+The [MajorCore](https://github.com/MCUdude/MajorCore) project includes compatible libraries and a bootloader for interacting with an ATMega162. 
 
 <img src="./Resources/arduino-bootloader.jpg">
 
